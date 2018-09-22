@@ -12,7 +12,7 @@
  
 #include <TimeLib.h>
 
-#define TIME_HEADER  "T"   // Header tag for serial time sync message
+#define TIME_HEADER  'T'   // Header tag for serial time sync message
 #define TIME_REQUEST  7    // ASCII bell character requests a time sync message 
 
 void setup()  {
